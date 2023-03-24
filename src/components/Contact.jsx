@@ -15,7 +15,7 @@ const Contact = () => {
             </div>
           </div>
           {/* form */}
-          <div className="flex-1">
+          <form className="flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6">
             <input
               type="text"
               className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white transition-all"
@@ -31,7 +31,7 @@ const Contact = () => {
               placeholder="Your message"
             ></textarea>
             <button>Send Message</button>
-          </div>
+          </form>
         </div>
       </div>
     </section>
