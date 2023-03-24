@@ -8,7 +8,10 @@ const Contact = () => {
           {/* text */}
           <div className="flex-1">
             <div>
-              <h4>Let's get in touch!</h4>
+              <h4 className="text-xl uppercase font-medium mb-2 tracking-wide">
+                Let's get in touch!
+              </h4>
+              <h2 className="text-[90px] leading-none mb-12">Contact me</h2>
             </div>
           </div>
           {/* form */}
