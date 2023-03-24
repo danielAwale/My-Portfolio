@@ -26,7 +26,11 @@ const Contact = () => {
               className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white transition-all"
               placeholder="Your email"
             />
-            <textarea className="bg-transparent border-b py-12 outline-none w-full placeholder:text-white transition-all"></textarea>
+            <textarea
+              className="bg-transparent border-b py-12 outline-none w-full placeholder:text-white transition-all resize-none mb-12"
+              placeholder="Your message"
+            ></textarea>
+            <button>Send Message</button>
           </div>
         </div>
       </div>
