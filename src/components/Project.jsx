@@ -10,7 +10,7 @@ const Project = () => {
     <>
       <div id="project" className="m-auto p-4 py-16">
         <h1 className="text-5xl font-bold text-center">Projects</h1>
-        <p className="text-center py-8">
+        <p className="text-center py-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quod,
           ut in vel unde tempore, sequi laboriosam quisquam dolore mollitia
           eveniet iusto voluptate impedit officiis repudiandae obcaecati sint
