@@ -17,10 +17,10 @@ const Project = () => {
           omnis tempora.
         </p>
         <div className="grid sm:grid-cols-2 gap-12">
-          <ProjectItem img={Img1} title="" />
-          <ProjectItem img={Img2} title="" />
-          <ProjectItem img={Img3} title="" />
-          <ProjectItem img={Img4} title="" />
+          <ProjectItem img={Img1} title="Image Generator" />
+          <ProjectItem img={Img2} title="BasketBall Labs" />
+          <ProjectItem img={Img3} title="DALL-E clone" />
+          <ProjectItem img={Img4} title="Finance Tracker" />
         </div>
       </div>
     </>
