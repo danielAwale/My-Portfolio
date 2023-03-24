@@ -20,7 +20,12 @@ const Navbar = () => {
           >
             <AiFillHome />
           </Link>
-          <Link className="cursor-pointer" to="about" smooth={true}>
+          <Link
+            className="cursor-pointer"
+            to="about"
+            smooth={true}
+            offset={+100}
+          >
             <IoIosContact />
           </Link>
           <Link className="cursor-pointer" to="project" smooth={true}>
