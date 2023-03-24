@@ -18,9 +18,15 @@ const Contact = () => {
           <div className="flex-1">
             <input
               type="text"
-              className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white"
+              className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white transition-all"
+              placeholder="Your name"
+            />
+            <input
+              type="text"
+              className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white transition-all"
               placeholder="Your email"
             />
+            <textarea className="bg-transparent border-b py-12 outline-none w-full placeholder:text-white transition-all"></textarea>
           </div>
         </div>
       </div>
