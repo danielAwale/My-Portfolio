@@ -8,8 +8,8 @@ import Img4 from "../assets/project-img4.png";
 const Project = () => {
   return (
     <div id="project" className="section flex flex-col">
-      <h1 className="text-4xl font-bold text-center">Projects</h1>
-      <p>
+      <h1 className="text-5xl font-bold text-center">Projects</h1>
+      <p className="text-center py-6 w-[900px] text-2xl">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quod,
         ut in vel unde tempore, sequi laboriosam quisquam dolore mollitia
         eveniet iusto voluptate impedit officiis repudiandae obcaecati sint
