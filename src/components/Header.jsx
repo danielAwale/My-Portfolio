@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <div className="pt-10">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4">
         <div className="flex justify-between items-center text-2xl">
           {/* logo */}
           <a href="#">DANIEL AWALE</a>
