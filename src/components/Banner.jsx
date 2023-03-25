@@ -31,13 +31,25 @@ const Banner = () => {
           </div>
           <span>Developer</span>
           <div className="flex text-[40px] gap-x-4 mt-5">
-            <a href="https://github.com/danielAwale">
+            <a
+              href="https://github.com/danielAwale"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaGithub className="cursor-pointer" />
             </a>
-            <a href="https://www.linkedin.com/in/daniel-awale/">
+            <a
+              href="https://www.linkedin.com/in/daniel-awale/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaLinkedin className="cursor-pointer" />
             </a>
-            <a href="https://www.youtube.com/channel/UCAw_zisg_L7figOPnInAoVA">
+            <a
+              href="https://www.youtube.com/channel/UCAw_zisg_L7figOPnInAoVA"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaYoutube className="cursor-pointer" />
             </a>
           </div>
