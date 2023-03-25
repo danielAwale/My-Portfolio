@@ -8,14 +8,8 @@ import Img4 from "../assets/project-img4.png";
 const Project = () => {
   return (
     <>
-      <div id="project" className="m-auto p-4 py-16">
-        <h1 className="text-5xl font-bold text-center">Projects</h1>
-        <p className="text-center py-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quod,
-          ut in vel unde tempore, sequi laboriosam quisquam dolore mollitia
-          eveniet iusto voluptate impedit officiis repudiandae obcaecati sint
-          omnis tempora.
-        </p>
+      <div id="project" className="m-auto p-4 pb-28 pt-8">
+        <h1 className="text-5xl font-bold text-center pb-12">Projects</h1>
         <div className="grid sm:grid-cols-2 gap-12">
           <ProjectItem
             img={Img1}

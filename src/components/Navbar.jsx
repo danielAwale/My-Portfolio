@@ -24,11 +24,16 @@ const Navbar = () => {
             className="cursor-pointer"
             to="about"
             smooth={true}
-            offset={+100}
+            // offset={+100}
           >
             <IoIosContact />
           </Link>
-          <Link className="cursor-pointer" to="project" smooth={true}>
+          <Link
+            className="cursor-pointer"
+            to="project"
+            smooth={true}
+            offset={25}
+          >
             <AiFillProject />
           </Link>
           <Link className="cursor-pointer" to="contact" smooth={true}>
