@@ -8,9 +8,15 @@ const Header = () => {
           {/* logo */}
           <a href="#">DANIEL AWALE</a>
           {/* resume */}
-          <button class="bg-transparent hover:bg-blue-500 text-white font-semibold hover:text-white py-2 px-4 border border-slate-500 hover:border-transparent rounded">
-            Resume
-          </button>
+          <a
+            href="https://resume.creddle.io/resume/ho3l65pma8q"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button class="bg-transparent hover:bg-blue-500 text-white font-semibold hover:text-white py-2 px-4 border border-slate-500 hover:border-transparent rounded">
+              Resume
+            </button>
+          </a>
         </div>
       </div>
     </div>
