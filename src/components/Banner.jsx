@@ -11,7 +11,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const Banner = () => {
   return (
-    <section id="home" className="section">
+    <section id="home" className="px-4 py-56 lg:section">
       <div className=" mx-auto w-full flex justify-evenly items-center">
         <div className="text-[50px] text-center">
           <h1 className="font-bold">Hello! I'm Daniel Awale</h1>
