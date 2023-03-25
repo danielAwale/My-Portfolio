@@ -55,7 +55,11 @@ const Banner = () => {
           </div>
         </div>
         <div>
-          <img src={Image} alt="" className="h-[600px] w-[800px] rounded-xl" />
+          <img
+            src={Image}
+            alt=""
+            className="h-[600px] w-[800px] rounded-xl sm:hidden"
+          />
         </div>
       </div>
     </section>
