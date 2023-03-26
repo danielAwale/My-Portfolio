@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section id="contact" className="section">
       <div className="container mx-auto">
-        <div className="flex flex-row">
+        <div className="flex flex-col px-8 lg:flex-row">
           {/* text */}
           <div className="flex-1">
             <div>
